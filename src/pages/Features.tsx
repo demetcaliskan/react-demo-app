@@ -5,7 +5,10 @@ import { features } from '../utils/features'
 const Features = () => {
   return (
     <div className='wrapper'>
-      <h1 className='title'>We make creative media that adds value</h1>
+      <h1 className='title'>
+        We make creative media that{' '}
+        <span style={{ color: '#506BCA' }}>adds value</span>
+      </h1>
       <div className='cards-wrapper'>
         {features?.map((feature) => (
           <Card

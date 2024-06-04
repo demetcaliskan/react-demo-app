@@ -1,5 +1,5 @@
 .start-button {
-  border: none;
+  border: 3px solid #1b264f;
   background: #1b264f;
   max-width: 315px;
   width: 100%;
@@ -12,10 +12,19 @@
   align-items: center;
   justify-content: center;
 
+  font-family: 'Poppins', sans-serif;
   font-weight: 700;
   font-size: 17px;
   line-height: 60px;
   letter-spacing: 0.2em;
   text-align: center;
   color: #ffffff;
+
+  transition: all 0.3s ease;
+}
+
+.start-button:hover {
+  background: #ffffff;
+  color: #1b264f;
+  border: 3px solid #1b264f;
 }
