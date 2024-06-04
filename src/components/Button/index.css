@@ -1,0 +1,21 @@
+.start-button {
+  border: none;
+  background: #1b264f;
+  max-width: 315px;
+  width: 100%;
+  height: 60px;
+  border-radius: 12px;
+
+  cursor: pointer;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 60px;
+  letter-spacing: 0.2em;
+  text-align: center;
+  color: #ffffff;
+}
